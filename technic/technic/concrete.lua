@@ -1,4 +1,3 @@
-
 minetest.register_craft({
 	output = 'technic:rebar 6',
 	recipe = {
@@ -73,7 +72,7 @@ minetest.register_node("technic:concrete_post", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-stairsplus.register_stair_and_slab_and_panel_and_micro("concrete", "technic:concrete",
+stairsplus.register_stair_and_slab_and_panel_and_micro("technic", "concrete", "technic:concrete",--whats the problem to add the word technic?
 		{cracky=3},
 		{"technic_concrete_block.png"},
 		"Concrete Stairs",
